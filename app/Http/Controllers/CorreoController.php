@@ -28,8 +28,7 @@ class CorreoController extends Controller
 
             $m->to('isidroevc@gmail.com', 'Isidro')->subject('Nuevo mensaje desde landing page!');
         });
-
-        if(count($errores ) > 0) {
+        if(!is_null($errores)) {
             return $this->error($errores, 500);
         } else {
             return $this->success('Correcto, enviado');

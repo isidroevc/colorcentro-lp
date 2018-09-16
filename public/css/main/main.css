@@ -1,0 +1,97 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+body {
+  font-family: Helvetica;
+}
+
+.contenedor {
+	background:#ccc;
+	width:90%;
+	max-width:1366px;
+	margin:auto;
+
+	/* Flexbox */
+	display:flex;
+	flex-flow:row wrap;
+}
+
+header {
+	background:#2c3e50;
+	width:100%;
+	padding:20px;
+
+	/* Flexbox */
+	display: flex;
+	justify-content:space-between;
+	align-items:center;
+
+	flex-direction:row;
+	flex-wrap:wrap;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+}
+
+nav {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-enlace {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.sec-1 {
+  width: 100%;
+  height: 768px;
+  background-image: url('http://localhost/colorcentro-lp/public/img/imagen_fondo_sec_2_sc.png');
+}
+
+
+/*Termina lo de la seccion 1*/
+
+.sec-2 {
+  width: 100%;
+  height: 768px;
+  background-image: url('http://localhost/colorcentro-lp/public/img/imagen_fondo_sec_2_sc.png');
+
+  display: flex;
+  flex-direction: row;
+}
+
+.lema-contenedor {
+  background: black;
+  width: 50%;
+  max-height: 100%;
+}
+
+.lema {
+  color: #FFF;
+  font-size: 40px;
+}
+
+.nosotros {
+  background: rgba(3, 3, 3, 0.5);
+  width: 47%;
+  max-height: 100%;
+  font-size: white;
+  color: #FFF;
+  font-size: 36px;
+}
+
+/*Termina lo de la seccion 2*/
+
+
+.sec-3 {
+  background: white;
+  height: 300px;
+}
