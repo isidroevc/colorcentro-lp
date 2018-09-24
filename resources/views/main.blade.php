@@ -82,6 +82,9 @@
         </div>
         
     </div>
+    <div class = "sec-3">
+        <p class="nuestros-productos">NUESTROS PRODUCTOS</p>
+    </div>
     <!--<script> src=href="{{url('/js/materialize.js')}}"</script>-->
 </body>
 

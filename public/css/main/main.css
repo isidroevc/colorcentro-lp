@@ -137,8 +137,17 @@ div.nosotros {
 
 
 .sec-3 {
-  background: white;
-  height: 300px;
+  background: #FFF;
+  width: 100%;
+  height: 768px;
+}
+
+p.nuestros-productos {
+  text-align: center;
+  font-size: 3.5rem;
+  font-weight: 600;
+  letter-spacing: 0.2rem;
+  color: #464646;
 }
 
 
