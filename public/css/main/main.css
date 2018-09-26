@@ -51,8 +51,13 @@ nav {
 }
 
 .nav-enlace {
-  padding-left: 20px;
-  padding-right: 20px;
+  margin-left: 0.8%;
+  margin-right: 0.8%;
+}
+
+.nav-enlace:hover a {
+  color: #00a0ff;
+  text-shadow: 3px #00a0ff;
 }
 
 .sec-1 {
@@ -139,16 +144,144 @@ div.nosotros {
 .sec-3 {
   background: #FFF;
   width: 100%;
-  height: 768px;
+  height: 1536px;
 }
 
 p.nuestros-productos {
   text-align: center;
-  font-size: 3.5rem;
+  font-size: 2.5rem;
   font-weight: 600;
-  letter-spacing: 0.2rem;
+  letter-spacing: 0.1rem;
   color: #464646;
 }
 
+div.row-producto {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+
+div.contenedor-producto {
+  display: flex;
+  flex-direction: column;
+  width: 22%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 2%;
+  margin-top: 2%;
+  box-shadow: 3px 10px 21px 0px rgba(0,0,0,0.75);;
+}
+
+img.contenedor-imagen-producto {
+  display: flex;
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: 92%;
+}
+
+p.titulo-producto {
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 900;
+  margin-bottom: 5%;
+}
+
+.sec-3 a {
+  text-decoration: none;
+  color: #000;
+}
+
+
+/*Termina seccion 3*/
+
+.sec-4 {
+  height: 768px;
+}
+
+
+/*Termina seccion 4.*/
+.sec-5 {
+  display: flex;
+  width: 100%;
+  height: 32rem;
+  background: #ededed;
+}
+
+.row-sec-5 {
+  display: flex;
+  width: 100%;
+  background: #ededed;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 32rem;
+}
+
+div.parte {
+  width: 33.33%;
+  background:#FFF;
+  
+  display: flex;
+  flex-direction: column;
+}
+
+
+.logo-snap-contenedor {
+  display: flex;
+  height: 70%;
+  width: 100%;
+}
+
+div.parte img {
+  width: 100%;
+  height: 100%;
+}
+.boton-entrar-contenedor {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+p.entrar {
+  color: #FFF;
+  font-size: 2.8rem;
+  background: #00a0ff;
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+  width: 10rem;
+  text-align: center;
+}
+/*termina sec5*/
+.sec-6 {
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.obtener-navegador {
+  display: flex;
+  flex-direction: column;
+  background:#FFF;
+  width: 100%;
+}
+
+.obtener-navegador .div-contenedor {
+  margin-top: 2%;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+p.obtener-navegador {
+  color: #FFF;
+  font-size: 2.4rem;
+  background: #00a0ff;
+  
+  width: 50rem;
+  text-align: center;
+}
 
 
