@@ -221,6 +221,75 @@
                 </div>
             </div>
         </div>
+
+        <div class="sec-7">
+            <div class="banner">
+                <img src="{{url('/img/banner.png')}}" alt="" class="img-banner">
+            </div>
+            <br><br><br>
+            <div class="sec-7-form">
+                <form action="" class="form-contacto">
+                    <div class="form-control">
+                        <label for="field-name">Nombre*</label>
+                        <input type="text" name="field-name" id="" class="text-input">
+                    </div>
+                    <div class="form-control">
+                        <label for="field-email">Email*</label>
+                        <input type="email" name="field-email" id="" class="text-input">
+                    </div>
+                    <div class="form-control">
+                        <label for="field-company">Compañia/Organización</label>
+                        <input type="text" name="field-company" id="" class="text-input">
+                    </div>
+                    <div class="form-control">
+                        <label for="field-message">Mensaje*</label>
+                        <textarea name="field-message" id="" class="message-input"></textarea>
+                    </div>
+                </form>
+            </div>
+
+            <div class="sec-7-aside">
+
+                
+                <div class="aside">
+                    <div class="sm">
+                        <a href="">
+                            <img src="{{url('/img/icon-tt.png')}}" alt="Twitter" class="sm-icon">
+                        </a>
+                        <a href="">
+                            <img src="{{url('/img/icon-fb.png')}}" alt="Facebook" class="sm-icon">
+                        </a>
+                        <a href="">
+                            <img src="{{url('/img/icon-ig.png')}}" alt="Instagram" class="sm-icon">
+                        </a>
+                    </div>
+                    <br>
+                    <div>
+                        <b><p>Color CentroMatriz</p></b>
+                    </div>
+                    <br>
+                    <div>
+                        <b><p>Blvd. Juan Alonso de Torres</p></b>
+                    </div>
+                    <div>
+                        <b><p>420 Col. San Jeronimo</p></b>
+                    </div>
+                    <br>
+                    <br>
+                    <div>
+                        <b><p>Nuestras direcciones</p></b>
+                    </div>
+                    <br>
+                    <br>
+                    <div>
+                        <p>Nuevos Proyectos:</p>
+                    </div>
+                    <div>
+                        <b><p>colorcentro@colorcentro.com.mx</p></b>
+                    </div>
+                </div>
+            </div>
+        </div>
         <!--<script> src=href="{{url('/js/materialize.js')}}"</script>-->
 </body>
 

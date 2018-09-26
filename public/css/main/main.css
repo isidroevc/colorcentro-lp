@@ -284,4 +284,91 @@ p.obtener-navegador {
   text-align: center;
 }
 
+.sec-7 {
+  width: 100%;
+  display: flex;
+  flex-flow: wrap row;
+  background: #FFF;
+}
+
+.sec-7-form {
+  width: 60%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+}
+
+.form-contacto {
+  width: 60%;
+  padding: 20px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.form-control {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.text-input, .message-input {
+  background: #e2e2e2;
+  border: none;
+  width: 100%;
+  margin-top: 10px;
+  padding: 0 15px;
+}
+
+.message-input {
+  height: 100px;
+}
+
+.text-input {
+  height: 35px;
+}
+
+.sec-7 label {
+  color: #747474;
+}
+
+.sec-7-aside {
+  width: 40%;
+  display: flex;
+  justify-content: flex-start;
+  flex-flow: row wrap;
+}
+.aside {
+  padding: 40px;
+  display: flex;
+  flex-flow: column wrap;
+  text-align: justify;
+}
+
+.aside div {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.aside p {
+  color: #6e6e6e;
+  font-size: 14px;
+}
+
+.sm {
+  display: flex;
+  justify-content: center;
+}
+
+.sm-icon {
+  height: 35px;
+}
+
+.img-banner {
+  width: 100%;
+}
+
+
 
