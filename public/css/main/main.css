@@ -10,7 +10,7 @@ body {
 }
 
 .contenedor {
-	background:#ccc;
+	background: #eeeeee;;
 	width:100%;
   margin:auto;
   max-width: 1400px;
@@ -144,8 +144,8 @@ div.nosotros {
 
 .sec-3 {
   background: #FFF;
+  padding: 1.5rem 0;
   width: 100%;
-  height: 1536px;
 }
 
 p.nuestros-productos {
@@ -247,13 +247,13 @@ div.sucursal img {
   display: flex;
   width: 100%;
   height: 32rem;
-  background: #ededed;
+  background: #eee;
 }
 
 .row-sec-5 {
   display: flex;
   width: 100%;
-  background: #ededed;
+  background: #eee;
   flex-direction: row;
   flex-wrap: wrap;
   height: 32rem;
