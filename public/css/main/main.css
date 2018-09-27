@@ -259,11 +259,11 @@ p.entrar {
   display: flex;
   flex-direction: column;
   width: 100%;
+  background: #eee;
 }
 .obtener-navegador {
   display: flex;
   flex-direction: column;
-  background:#FFF;
   width: 100%;
 }
 
@@ -283,6 +283,73 @@ p.obtener-navegador {
   width: 50rem;
   text-align: center;
 }
+
+.color-snap {
+  width: 100%;
+}
+
+.download-app {
+  
+  padding: 10px 0;
+  width: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.download-app div p {
+  font-size: 2rem;
+  color: #474747;
+}
+
+.dowload-buttons {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.color-studio {
+  height: 100vh;
+  background-image: url("../../img/color-studio.png");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.color-studio div {
+  height: 50%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  text-align: justify;
+  padding: 20px;
+}
+
+.color-studio div p {
+  color: #464646;
+  font-size: 2rem;
+  text-align: justify;
+}
+
+.fachada {
+  align-items: flex-start;
+}
+
+.enviar-proyecto {
+  display: flex;
+  justify-self: flex-end;
+  align-items: flex-end;
+}
+
+.btn-enviar-proyecto {
+  background: #5896e7;
+  color: #fff;
+  padding: 10px 30px;
+  text-decoration: none;
+  font-size: 1.8rem;
+}
+/* Contacto */
 
 .sec-7 {
   width: 100%;
@@ -313,6 +380,7 @@ p.obtener-navegador {
 
 .text-input, .message-input {
   background: #e2e2e2;
+  color: #5c5c5c;
   border: none;
   width: 100%;
   margin-top: 10px;
@@ -320,7 +388,9 @@ p.obtener-navegador {
 }
 
 .message-input {
+  padding: 15px;
   height: 100px;
+  resize: none;
 }
 
 .text-input {
@@ -353,7 +423,7 @@ p.obtener-navegador {
 }
 
 .aside p {
-  color: #6e6e6e;
+  color: #9b9b9b;
   font-size: 14px;
 }
 

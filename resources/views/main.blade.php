@@ -11,7 +11,7 @@
 <body>
     <div class="contenedor">
 
-        <div class="sec-1">
+        <div class="sec-1" id="inicio">
             <div class="header">
                 <div class="logo">
                     <a href="#">
@@ -20,28 +20,28 @@
 
                 <nav>
                     <div class="nav-enlace">
-                        <a href="#">INICIO</a>
+                        <a href="#inicio">INICIO</a>
                     </div>
                     <div class="nav-enlace">
-                        <a href="#">NOSOTROS</a>
+                        <a href="#nosotros">NOSOTROS</a>
                     </div>
                     <div class="nav-enlace">
-                        <a href="#">NUESTROS<BR> PRODUCTOS</a>
+                        <a href="#nuestros-productos">NUESTROS<BR> PRODUCTOS</a>
                     </div>
                     <div class="nav-enlace">
-                        <a href="#">SUCURSALES</a>
+                        <a href="#sucursales">SUCURSALES</a>
                     </div>
                     <div class="nav-enlace">
-                        <a href="#">APPS</a>
+                        <a href="#apps">APPS</a>
                     </div>
                     <div class="nav-enlace">
-                        <a href="#">CONTACTO</a>
+                        <a href="#contacto">CONTACTO</a>
                     </div>
                 </nav>
             </div>
 
         </div>
-        <div class="sec-2">
+        <div class="sec-2" id="nosotros">
             <div class="lema-contenedor">
                 <div class="lema-texto">
                     <p class="lema">
@@ -89,7 +89,7 @@
             </div>
 
         </div>
-        <div class="sec-3">
+        <div class="sec-3" id="nuestros-productos">
             <p class="nuestros-productos">NUESTROS PRODUCTOS</p>
 
             <div class="row-producto">
@@ -130,7 +130,6 @@
                         </div>
                         <p class="titulo-producto">INDUSTRIAL LIGERO</p>
                     </a>
-
                 </div>
 
                 <div class="contenedor-producto">
@@ -141,7 +140,6 @@
                         <p class="titulo-producto">BROCHAS Y RODILLOS</p>
                     </a>
                 </div>
-
 
                 <div class="contenedor-producto">
                     <a href="http://www.sherwinmexico.com/es/accesorios-y-equipo/aerosoles.html">
@@ -187,7 +185,7 @@
         <div class="sec-4">
         </div>
 
-        <div class="sec-5">
+        <div class="sec-5" id="apps">
             <div class="row-sec-5">
                 <div class="parte">
                     <img class="logo-snap-contenedor" src="{{url('/img/color_snap_1.png')}}" alt="">
@@ -205,9 +203,6 @@
                     <img class="logo-snap-contenedor" src="{{url('/img/color_snap_2.png')}}" alt="">
                 </div>
             </div>
-
-
-
         </div>
         <div class="sec-6">
             <div class="obtener-navegador">
@@ -219,14 +214,42 @@
                         Obtener Color Snap Para Tu Navegador
                     </p>
                 </div>
+                <div>
+                    <img src="{{url('/img/obtener-color-snap.png')}}" alt="" class="color-snap">
+                </div>
+                <div class="download-app">
+                    <div>
+                        <p>Descargar</p>
+                    </div>
+                    <br>
+                    <div class="download-buttons">
+                        <a href="#" target="_blank">
+                            <img src="{{url('/img/app-store.png')}}" alt="">
+                        </a>
+                        <a href="https://play.google.com/store/apps/details?id=com.colorsnap" target="_blank">
+                            <img src="{{url('/img/google-play.png')}}" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="color-studio">
+                    <div class="fachada">
+                        <p>¿Quieres saber cómo <b>se vería</p>
+                        <p>tu fachada?</p></b>
+                    </div>
+                    <div class="enviar-proyecto">
+                        <p>Envianos un email con <b>tu proyecto e imágenes</p>
+                        <p>y te lo mostramos!!!</p></br>
+                        <a href="" class="btn-enviar-proyecto">Enviar Proyecto</a>
+                    </div>
+                </div>
             </div>
         </div>
 
-        <div class="sec-7">
+        <div class="sec-7" id="contacto">
             <div class="banner">
                 <img src="{{url('/img/banner.png')}}" alt="" class="img-banner">
             </div>
-            <br><br><br>
+            <br>
             <div class="sec-7-form">
                 <form action="" class="form-contacto">
                     <div class="form-control">
@@ -249,17 +272,15 @@
             </div>
 
             <div class="sec-7-aside">
-
-                
                 <div class="aside">
                     <div class="sm">
-                        <a href="">
+                        <a href="https://twitter.com/centro_color?lang=es" target="_blank">
                             <img src="{{url('/img/icon-tt.png')}}" alt="Twitter" class="sm-icon">
                         </a>
-                        <a href="">
+                        <a href="https://www.facebook.com/recubirmientoscolorcentro/" target="_blank">
                             <img src="{{url('/img/icon-fb.png')}}" alt="Facebook" class="sm-icon">
                         </a>
-                        <a href="">
+                        <a href="https://www.instagram.com/recubrimientoscolorcentro/" target="_blank">
                             <img src="{{url('/img/icon-ig.png')}}" alt="Instagram" class="sm-icon">
                         </a>
                     </div>
