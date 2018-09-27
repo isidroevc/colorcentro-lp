@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="{{url('/css/main/main.css')}}">
+    <link rel="shortcut icon" href="{{url('/img/favicon.ico')}}" type="image/x-icon">
     <!-- <link rel="stylesheet" href="{{url('/css/materialize.css')}}">-->
     <title>Colorcentro</title>
 </head>
