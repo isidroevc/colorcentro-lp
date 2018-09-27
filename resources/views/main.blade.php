@@ -268,6 +268,9 @@
                         <label for="field-message">Mensaje*</label>
                         <textarea name="field-message" id="" class="message-input"></textarea>
                     </div>
+                    <div class="form-control">
+                        <input type="submit" value="Enviar" class="btn-submit">
+                    </div>
                 </form>
             </div>
 
