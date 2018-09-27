@@ -371,6 +371,7 @@ a.obtener-navegador {
   color: #464646;
   font-size: 2rem;
   text-align: justify;
+  box-sizing: border-box;
 }
 
 .fachada {
@@ -435,7 +436,7 @@ a.obtener-navegador {
 }
 
 .text-input {
-  height: 35px;
+  height: 2.5rem;
 }
 
 .btn-submit {
@@ -443,6 +444,7 @@ a.obtener-navegador {
   color: #fff;
   padding: 10px 20px;
   border: none;
+  text-align: center;
 }
 
 .btn-submit:hover {
@@ -493,7 +495,52 @@ a.obtener-navegador {
   width: 100%;
 }
 
+@media only screen and (max-width: 1024px) {
+  .sec-7-form, .sec-7-aside {
+    width: 100%;
+    justify-content: center;
+  }
 
+  .form-contacto {
+    width: 90%;
+  }
 
+  .color-studio {
+    height: 400px;
+  }
 
+  .color-studio div p {
+    font-size: 1.5rem;
+    text-align: justify;
+    margin: 0;
+    padding: 0;
+  }
 
+  .fachada, .enviar-proyecto {
+    align-content: center;
+    align-items: center;
+  }
+
+  .enviar-proyecto {
+    padding: 0;
+    flex-flow: column wrap;
+    justify-items: flex-start;
+    height: auto;
+  }
+
+  .btn-enviar-proyecto {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    padding: 5px 15px;
+  }
+
+  div.nosotros {
+    background: #00000000;
+    width: 65%;
+  }
+
+  .lema-contenedor {
+    width: 35%;
+    max-height: 100%;
+  }
+}
