@@ -183,7 +183,7 @@
 
             </div>
         </div>
-        <div class="sec-4">
+        <div class="sec-4" id="sucursales">
             <p class="titulo-sucursales">SUCURSALES.</p>
             <p class="subtitulo-sucursales">ENCUENTRA TU TIENDA MAS CERCANA</p>
             <div class="sec-4-row">
@@ -274,7 +274,7 @@
                     <div class="enviar-proyecto">
                         <p>Envianos un email con <b>tu proyecto e imágenes</b></p>
                         <p><b>y te lo mostramos!!!</b></p>
-                        <a href="#contacto" class="btn-enviar-proyecto">Enviar Proyecto</a>
+                        <a href="#nombre" class="btn-enviar-proyecto">Enviar Proyecto</a>
                     </div>
                 </div>
             </div>

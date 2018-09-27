@@ -501,6 +501,11 @@ a.obtener-navegador {
     justify-content: center;
   }
 
+  .btn-submit {
+    width: 100%;
+    padding: 1rem 0;
+  }
+
   .form-contacto {
     width: 90%;
   }
