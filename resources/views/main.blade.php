@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/main/main.css">
     <!-- <link rel="stylesheet" href="/css/materialize.css">-->
-    <link rel="shortcut icon" href="{{url('/img/favicon.ico')}}" type="image/x-icon">
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
     <title>Colorcentro</title>
 </head>
 
@@ -165,7 +165,7 @@
                 <div class="contenedor-producto">
                     <a href="http://www.sherwinmexico.com/es/accesorios-y-equipo/accesorios-en-general.html">
                         <div>
-                            <img src="./img/accesorios.png" class="contenedor-imagen-producto">
+                            <img src="./img/espatula.png" class="contenedor-imagen-producto">
                         </div>
                         <p class="titulo-producto">ACCESORIOS EN GRAL.</p>
                     </a>

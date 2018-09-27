@@ -354,13 +354,10 @@ a.obtener-navegador {
 }
 
 .color-studio {
-  height: 100vh;
   box-sizing: border-box;
   width: 100%;
   height: 450px;
   background-image: url("../../img/color-studio.png");
-  background-size: cover;
-  background-size: 100% auto;
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
