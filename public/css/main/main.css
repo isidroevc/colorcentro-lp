@@ -12,7 +12,8 @@ body {
 .contenedor {
 	background:#ccc;
 	width:100%;
-	margin:auto;
+  margin:auto;
+  max-width: 1400px;
 
 	/* Flexbox */
 	display:flex;
