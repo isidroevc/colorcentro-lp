@@ -195,7 +195,7 @@
                         <img class="logo-snap-contenedor" src="{{url('/img/colorsnaplogo.png')}}" alt="">
                     </div>
                     <div class="boton-entrar-contenedor">
-                        <p class="entrar">Entrar</p>
+                        <a href="https://sherwin-williams.com/visualizer#/active/default" target="_blank" class="entrar">Entrar</a>
                     </div>
 
                 </div>
@@ -210,9 +210,9 @@
                     <img src="{{url('/img/sherwin-header.png')}}" alt="">
                 </div>
                 <div class="div-contenedor">
-                    <p class="obtener-navegador">
+                    <a href="http://snapyourcolors.com/" target="_blank" class="obtener-navegador">
                         Obtener Color Snap Para Tu Navegador
-                    </p>
+                    </a>
                 </div>
                 <div>
                     <img src="{{url('/img/obtener-color-snap.png')}}" alt="" class="color-snap">

@@ -244,7 +244,7 @@ div.parte img {
   justify-content: center;
 }
 
-p.entrar {
+a.entrar {
   color: #FFF;
   font-size: 2.8rem;
   background: #00a0ff;
@@ -252,6 +252,7 @@ p.entrar {
   padding-bottom: 2.5%;
   width: 10rem;
   text-align: center;
+  text-decoration: none;
 }
 /*termina sec5*/
 .sec-6 {
@@ -275,11 +276,11 @@ p.entrar {
 
 }
 
-p.obtener-navegador {
+a.obtener-navegador {
   color: #FFF;
   font-size: 2.4rem;
   background: #00a0ff;
-  
+  text-decoration: none;
   width: 50rem;
   text-align: center;
 }
