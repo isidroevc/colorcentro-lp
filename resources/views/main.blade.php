@@ -165,7 +165,7 @@
                 <div class="contenedor-producto">
                     <a href="http://www.sherwinmexico.com/es/accesorios-y-equipo/accesorios-en-general.html">
                         <div>
-                            <img src="./img/accesorios_gral.png" class="contenedor-imagen-producto">
+                            <img src="./img/accesorios.png" class="contenedor-imagen-producto">
                         </div>
                         <p class="titulo-producto">ACCESORIOS EN GRAL.</p>
                     </a>
