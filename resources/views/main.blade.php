@@ -165,7 +165,7 @@
                 <div class="contenedor-producto">
                     <a href="http://www.sherwinmexico.com/es/accesorios-y-equipo/accesorios-en-general.html">
                         <div>
-                            <img src="./img/accesorios_gral.PNG" class="contenedor-imagen-producto">
+                            <img src="./img/accesorios_gral.png" class="contenedor-imagen-producto">
                         </div>
                         <p class="titulo-producto">ACCESORIOS EN GRAL.</p>
                     </a>
@@ -214,7 +214,7 @@
                 </div>
                 <div class="sec-4-row">
                         <div class="sucursal">
-                            <a href="https://www.facebook.com/recubrimientoscolorcentro/"><img class="img-sucursal" src="./img/image001.png"></a>
+                            <a href="https://www.facebook.com/recubrimientoscolorcentro/"><img class="img-sucursal" src="./img/image007.png"></a>
 
                         </div>
                     </div>
