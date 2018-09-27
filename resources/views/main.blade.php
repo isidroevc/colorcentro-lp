@@ -272,9 +272,9 @@
                         <p>tu fachada?</p></b>
                     </div>
                     <div class="enviar-proyecto">
-                        <p>Envianos un email con <b>tu proyecto e imágenes</p>
-                        <p>y te lo mostramos!!!</p></br>
-                        <a href="" class="btn-enviar-proyecto">Enviar Proyecto</a>
+                        <p>Envianos un email con <b>tu proyecto e imágenes</b></p>
+                        <p><b>y te lo mostramos!!!</b></p>
+                        <a href="#contacto" class="btn-enviar-proyecto">Enviar Proyecto</a>
                     </div>
                 </div>
             </div>
