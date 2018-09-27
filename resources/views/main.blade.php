@@ -304,9 +304,20 @@
                         <textarea name="field-message" id="mensaje" class="message-input" required></textarea>
                     </div>
                     <div class="form-control">
-                        <button class="btn-submit" id="submit">Enviar</button>
+                        <button class="btn-submit" id="submit myBtn">Enviar</button>
                     </div>
                 </form>
+                <!-- Trigger/Open The Modal -->
+                <button id="myBtn">Open Modal</button>
+
+                <!-- The Modal -->
+                <div id="myModal" class="modal">
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <p>Se ha enviado el formulario</p>
+                    </div>
+                </div>
             </div>
 
             <div class="sec-7-aside">
