@@ -3,9 +3,9 @@
 
 <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="{{url('/css/main/main.css')}}">
+    <link rel="stylesheet" href="css/main/main.css">
+    <!-- <link rel="stylesheet" href="/css/materialize.css">-->
     <link rel="shortcut icon" href="{{url('/img/favicon.ico')}}" type="image/x-icon">
-    <!-- <link rel="stylesheet" href="{{url('/css/materialize.css')}}">-->
     <title>Colorcentro</title>
 </head>
 
@@ -289,22 +289,22 @@
                 <form action="" class="form-contacto">
                     <div class="form-control">
                         <label for="field-name">Nombre*</label>
-                        <input type="text" name="field-name" id="" class="text-input">
+                        <input type="text" name="field-name" id="nombre" class="text-input">
                     </div>
                     <div class="form-control">
                         <label for="field-email">Email*</label>
-                        <input type="email" name="field-email" id="" class="text-input">
+                        <input type="email" name="field-email" id="email" class="text-input">
                     </div>
                     <div class="form-control">
                         <label for="field-company">Compañia/Organización</label>
-                        <input type="text" name="field-company" id="" class="text-input">
+                        <input type="text" name="field-company" id="compania" class="text-input">
                     </div>
                     <div class="form-control">
                         <label for="field-message">Mensaje*</label>
-                        <textarea name="field-message" id="" class="message-input"></textarea>
+                        <textarea name="field-message" id="mensaje" class="message-input"></textarea>
                     </div>
                     <div class="form-control">
-                        <input type="submit" value="Enviar" class="btn-submit">
+                        <p class="btn-submit" id="submit">Enviar</p>
                     </div>
                 </form>
             </div>
@@ -349,7 +349,7 @@
                 </div>
             </div>
         </div>
-        <!--<script> src=href="/js/materialize.js"</script>-->
+        <script> src="js/jquery-3.3.1.min.js"</script>
 </body>
 
 </html>
