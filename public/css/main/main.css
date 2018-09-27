@@ -398,6 +398,18 @@ a.obtener-navegador {
   height: 35px;
 }
 
+.btn-submit {
+  background: #5896e7;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+}
+
+.btn-submit:hover {
+  cursor: pointer;
+  background: #4779bb;
+}
+
 .sec-7 label {
   color: #747474;
 }
