@@ -15,7 +15,7 @@
             <div class="header">
                 <div class="logo">
                     <a href="#">
-                        <img src="/img/colorcentro_logo_sc.png" width="150" alt=""></a>
+                        <img src="./img/colorcentro_logo_sc.png" width="150" alt=""></a>
                 </div>
 
                 <nav>
@@ -96,7 +96,7 @@
                 <div class="contenedor-producto">
                     <a href="http://www.sherwinmexico.com/es/pintura/primarios.html">
                         <div>
-                            <img src="/img/primarios.PNG" class="contenedor-imagen-producto">
+                            <img src="./img/primarios.PNG" class="contenedor-imagen-producto">
                         </div>
                         <p class="titulo-producto">PRIMARIOS</p>
                     </a>
@@ -105,7 +105,7 @@
                 <div class="contenedor-producto">
                     <a href="http://www.sherwinmexico.com/es/pintura/vinilicas.html">
                         <div>
-                            <img src="/img/vinilicas.png" class="contenedor-imagen-producto">
+                            <img src="./img/vinilicas.png" class="contenedor-imagen-producto">
                         </div>
                         <p class="titulo-producto">VINILICAS</p>
                     </a>
@@ -115,7 +115,7 @@
                 <div class="contenedor-producto">
                     <a href="http://www.sherwinmexico.com/es/pintura/esmaltes.html">
                         <div>
-                            <img src="/img/esmaltes.PNG" class="contenedor-imagen-producto">
+                            <img src="./img/esmaltes.PNG" class="contenedor-imagen-producto">
                         </div>
                         <p class="titulo-producto">ESMALTES</p>
                     </a>
@@ -126,7 +126,7 @@
                 <div class="contenedor-producto">
                     <a href="http://www.sherwinmexico.com/es/pintura/industrial-ligero.html">
                         <div>
-                            <img src="/img/anti-graffiti.PNG" class="contenedor-imagen-producto">
+                            <img src="./img/anti-graffiti.PNG" class="contenedor-imagen-producto">
                         </div>
                         <p class="titulo-producto">INDUSTRIAL LIGERO</p>
                     </a>
@@ -135,7 +135,7 @@
                 <div class="contenedor-producto">
                     <a href="http://www.sherwinmexico.com/es/accesorios-y-equipo/brochas.html">
                         <div>
-                            <img src="/img/brochas_rodillos.PNG" class="contenedor-imagen-producto">
+                            <img src="./img/brochas_rodillos.PNG" class="contenedor-imagen-producto">
                         </div>
                         <p class="titulo-producto">BROCHAS Y RODILLOS</p>
                     </a>
@@ -144,7 +144,7 @@
                 <div class="contenedor-producto">
                     <a href="http://www.sherwinmexico.com/es/accesorios-y-equipo/aerosoles.html">
                         <div>
-                            <img src="/img/aerosoles.PNG" class="contenedor-imagen-producto">
+                            <img src="./img/aerosoles.PNG" class="contenedor-imagen-producto">
                         </div>
                         <p class="titulo-producto">AEOROSOLES</p>
                     </a>
@@ -155,7 +155,7 @@
                 <div class="contenedor-producto">
                     <a href="http://www.sherwinmexico.com/es/accesorios-y-equipo/graco.html">
                         <div>
-                            <img src="/img/pistolas.PNG" class="contenedor-imagen-producto">
+                            <img src="./img/pistolas.PNG" class="contenedor-imagen-producto">
                         </div>
                         <p class="titulo-producto">PISTOLAS PARA PINTAR (GRACO)</p>
                     </a>
@@ -164,7 +164,7 @@
                 <div class="contenedor-producto">
                     <a href="http://www.sherwinmexico.com/es/accesorios-y-equipo/accesorios-en-general.html">
                         <div>
-                            <img src="/img/accesorios_gral.PNG" class="contenedor-imagen-producto">
+                            <img src="./img/accesorios_gral.PNG" class="contenedor-imagen-producto">
                         </div>
                         <p class="titulo-producto">ACCESORIOS EN GRAL.</p>
                     </a>
@@ -174,7 +174,7 @@
                 <div class="contenedor-producto">
                     <a href="http://www.sherwinmexico.com/es/barnices-y-tintes.html">
                         <div>
-                            <img src="/img/maderas.PNG" class="contenedor-imagen-producto">
+                            <img src="./img/maderas.PNG" class="contenedor-imagen-producto">
                         </div>
                         <p class="titulo-producto">MADERAS</p>
                     </a>
@@ -183,16 +183,50 @@
             </div>
         </div>
         <div class="sec-4">
+            <p class="titulo-sucursales">SUCURSALES.</p>
+            <p class="subtitulo-sucursales">ENCUENTRA TU TIENDA MAS CERCANA</p>
+            <div class="sec-4-row">
+                <div class="sucursal">
+                    <a href="https://www.facebook.com/Color-Centro-Queretaro-264080721052376/"><img class="img-sucursal" src="./img/image005.png"></a>
+                    
+                </div>
+                <div class="sucursal">
+                        <a href="https://www.facebook.com/recubrimientoscolorcentro/"><img class="img-sucursal" src="./img/image002.png"></a>
+                        
+                </div>
+                <div class="sucursal">
+                        <a href="https://www.facebook.com/Color-Centro-Queretaro-264080721052376/"><img class="img-sucursal" src="./img/image004.png"></a>
+                </div>
+            </div>
+            <div class="sec-4-row">
+                    <div class="sucursal">
+                        <a href="https://www.facebook.com/recubrimientoscolorcentro/"><img class="img-sucursal" src="./img/image001.png"></a>
+                        
+                    </div>
+                    <div class="sucursal">
+                            <a href="https://www.facebook.com/recubrimientoscolorcentro/"><img class="img-sucursal" src="./img/image003.png"></a>
+                            
+                    </div>
+                    <div class="sucursal">
+                            <a href="https://www.facebook.com/Color-Centro-Salamanca-631673760548578/"><img class="img-sucursal" src="./img/image006.png"></a>
+                    </div>
+                </div>
+                <div class="sec-4-row">
+                        <div class="sucursal">
+                            <a href="https://www.facebook.com/recubrimientoscolorcentro/"><img class="img-sucursal" src="./img/image001.png"></a>
+                            
+                        </div>
+                    </div>
         </div>
 
         <div class="sec-5" id="apps">
             <div class="row-sec-5">
                 <div class="parte">
-                    <img class="logo-snap-contenedor" src="/img/color_snap_1.png" alt="">
+                    <img class="logo-snap-contenedor" src="./img/color_snap_1.png" alt="">
                 </div>
                 <div class="parte">
                     <div>
-                        <img class="logo-snap-contenedor" src="/img/colorsnaplogo.png" alt="">
+                        <img class="logo-snap-contenedor" src="./img/colorsnaplogo.png" alt="">
                     </div>
                     <div class="boton-entrar-contenedor">
                         <a href="https://sherwin-williams.com/visualizer#/active/default" target="_blank" class="entrar">Entrar</a>
@@ -200,14 +234,14 @@
 
                 </div>
                 <div class="parte">
-                    <img class="logo-snap-contenedor" src="/img/color_snap_2.png" alt="">
+                    <img class="logo-snap-contenedor" src="./img/color_snap_2.png" alt="">
                 </div>
             </div>
         </div>
         <div class="sec-6">
             <div class="obtener-navegador">
                 <div class="div-contenedor">
-                    <img src="/img/sherwin-header.png" alt="">
+                    <img src="./img/sherwin-header.png" alt="">
                 </div>
                 <div class="div-contenedor">
                     <a href="http://snapyourcolors.com/" target="_blank" class="obtener-navegador">
@@ -215,7 +249,7 @@
                     </a>
                 </div>
                 <div>
-                    <img src="/img/obtener-color-snap.png" alt="" class="color-snap">
+                    <img src="./img/obtener-color-snap.png" alt="" class="color-snap">
                 </div>
                 <div class="download-app">
                     <div>
@@ -224,10 +258,10 @@
                     <br>
                     <div class="download-buttons">
                         <a href="#" target="_blank">
-                            <img src="/img/app-store.png" alt="">
+                            <img src="./img/app-store.png" alt="">
                         </a>
                         <a href="https://play.google.com/store/apps/details?id=com.colorsnap" target="_blank">
-                            <img src="/img/google-play.png" alt="">
+                            <img src="./img/google-play.png" alt="">
                         </a>
                     </div>
                 </div>
@@ -247,7 +281,7 @@
 
         <div class="sec-7" id="contacto">
             <div class="banner">
-                <img src="/img/banner.png" alt="" class="img-banner">
+                <img src="./img/banner.png" alt="" class="img-banner">
             </div>
             <br>
             <div class="sec-7-form">
@@ -278,13 +312,13 @@
                 <div class="aside">
                     <div class="sm">
                         <a href="https://twitter.com/centro_color?lang=es" target="_blank">
-                            <img src="/img/icon-tt.png" alt="Twitter" class="sm-icon">
+                            <img src="./img/icon-tt.png" alt="Twitter" class="sm-icon">
                         </a>
                         <a href="https://www.facebook.com/recubirmientoscolorcentro/" target="_blank">
-                            <img src="/img/icon-fb.png" alt="Facebook" class="sm-icon">
+                            <img src="./img/icon-fb.png" alt="Facebook" class="sm-icon">
                         </a>
                         <a href="https://www.instagram.com/recubrimientoscolorcentro/" target="_blank">
-                            <img src="/img/icon-ig.png" alt="Instagram" class="sm-icon">
+                            <img src="./img/icon-ig.png" alt="Instagram" class="sm-icon">
                         </a>
                     </div>
                     <br>
