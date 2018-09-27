@@ -274,7 +274,7 @@
                     <div class="enviar-proyecto">
                         <p>Envianos un email con <b>tu proyecto e imágenes</b></p>
                         <p><b>y te lo mostramos!!!</b></p>
-                        <a href="" class="btn-enviar-proyecto">Enviar Proyecto</a>
+                        <a href="#contacto" class="btn-enviar-proyecto">Enviar Proyecto</a>
                     </div>
                 </div>
             </div>
