@@ -188,11 +188,11 @@
             <div class="sec-4-row">
                 <div class="sucursal">
                     <a href="https://www.facebook.com/Color-Centro-Queretaro-264080721052376/"><img class="img-sucursal" src="./img/image005.png"></a>
-                    
+
                 </div>
                 <div class="sucursal">
                         <a href="https://www.facebook.com/recubrimientoscolorcentro/"><img class="img-sucursal" src="./img/image002.png"></a>
-                        
+
                 </div>
                 <div class="sucursal">
                         <a href="https://www.facebook.com/Color-Centro-Queretaro-264080721052376/"><img class="img-sucursal" src="./img/image004.png"></a>
@@ -201,11 +201,11 @@
             <div class="sec-4-row">
                     <div class="sucursal">
                         <a href="https://www.facebook.com/recubrimientoscolorcentro/"><img class="img-sucursal" src="./img/image001.png"></a>
-                        
+
                     </div>
                     <div class="sucursal">
                             <a href="https://www.facebook.com/recubrimientoscolorcentro/"><img class="img-sucursal" src="./img/image003.png"></a>
-                            
+
                     </div>
                     <div class="sucursal">
                             <a href="https://www.facebook.com/Color-Centro-Salamanca-631673760548578/"><img class="img-sucursal" src="./img/image006.png"></a>
@@ -214,7 +214,7 @@
                 <div class="sec-4-row">
                         <div class="sucursal">
                             <a href="https://www.facebook.com/recubrimientoscolorcentro/"><img class="img-sucursal" src="./img/image001.png"></a>
-                            
+
                         </div>
                     </div>
         </div>
@@ -285,25 +285,25 @@
             </div>
             <br>
             <div class="sec-7-form">
-                <form action="" class="form-contacto">
+                <form action="" class="form-contacto" id="form-contacto">
                     <div class="form-control">
                         <label for="field-name">Nombre*</label>
-                        <input type="text" name="field-name" id="nombre" class="text-input">
+                        <input type="text" name="field-name" id="nombre" class="text-input" required>
                     </div>
                     <div class="form-control">
                         <label for="field-email">Email*</label>
-                        <input type="email" name="field-email" id="email" class="text-input">
+                        <input type="email" name="field-email" id="email" class="text-input" required>
                     </div>
                     <div class="form-control">
                         <label for="field-company">Compañia/Organización</label>
-                        <input type="text" name="field-company" id="compania" class="text-input">
+                        <input type="text" name="field-company" id="compania" class="text-input" required>
                     </div>
                     <div class="form-control">
                         <label for="field-message">Mensaje*</label>
-                        <textarea name="field-message" id="mensaje" class="message-input"></textarea>
+                        <textarea name="field-message" id="mensaje" class="message-input" required></textarea>
                     </div>
                     <div class="form-control">
-                        <p class="btn-submit" id="submit">Enviar</p>
+                        <button class="btn-submit" id="submit">Enviar</button>
                     </div>
                 </form>
             </div>
@@ -348,7 +348,12 @@
                 </div>
             </div>
         </div>
-        <script> src="js/jquery-3.3.1.min.js"</script>
-</body>
-
+    </body>
+    
+    <script src="./js/jquery-3.3.1.min.js">
+        
+        </script>
+    <script src="./js/main.js">
+        
+    </script>
 </html>

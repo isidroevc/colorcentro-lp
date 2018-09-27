@@ -17,7 +17,13 @@ Route::get('/', function() {
 });
 
 Route::get('/correo', function() {
-  $carga = json_decode('{"nombre":"Isidro","email":"isidroevc@gmail.com","compania":"Textiles chidos","mensaje":"la oscuridad de mi alma"}');
+  $carga = [
+    'nombre' => 'isidro',
+    'compania' => 'compania',
+    'email' => 'email',
+    'mensaje' => 'mensaje',
+    'fecha' => Carbon\Carbon::now('America/Mexico_City')->format('d/m/Y')
+  ];
   
   return view('emails.correo', ['carga' => $carga]);
 });

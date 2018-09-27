@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Mail;
+use Carbon\Carbon;
 class CorreoController extends Controller
 {
     //
@@ -16,17 +17,19 @@ class CorreoController extends Controller
             'mensaje' => 'required|max:1024'
         ];
 
+
+
         $carga = $request->all();
         $errores = $this->validate($carga, $reglas);
 
         if(count($errores) > 0) {
             return $this->error($errores, 403);
         }
-
-        $errores = Mail::send('emails.mensaje-lp', ['carga' => $carga], function ($m){
+        $carga['fecha'] = Carbon::now('America/Mexico_City')->format('d/m/Y');
+        $errores = Mail::send('emails.correo', ['carga' => $carga], function ($m){
             $m->from('noreply@colorcentro.com.mx', 'Colorcentro');
 
-            $m->to('isidroevc@gmail.com', 'Isidro')->subject('Nuevo mensaje desde landing page!');
+            $m->to(['isidroevc@gmail.com', 'colorcentro@colorcentro.com.mx'], 'Isidro')->subject('Nuevo mensaje desde landing page!');
         });
         if(!is_null($errores)) {
             return $this->error($errores, 500);

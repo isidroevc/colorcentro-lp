@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <style>
+    <!--<style>
         * {
             margin: 0;
             padding: 0;
@@ -65,7 +65,7 @@
           font-family: Helvetica;
           color: #FFF;
         }
-    </style>
+    </style>-->
 </head>
 
 <body>
@@ -75,17 +75,18 @@
         </header>
         <div class="contenido-mensaje">
           <p class = "texto-mensaje">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+           {{$carga['mensaje']}}
           </p>
         </div>
         <div class="contacto">
-          <p class = "align-right">{{$carga->nombre}}</p>
-          <p class = "align-right">{{$carga->compania}}</p>
-          <p class = "align-right">{{$carga->email}}</p>
+        <h3>Contacto</h3>
+          <p class = "align-right">{{$carga['nombre']}}
+          <br>{{$carga['compania']}}
+          <br>{{$carga['email']}}</p>
         </div>
 
         <div class="footer">
-          <p>Mensaje enviado desde colorcentro.com.mx</p>
+          <p>Mensaje enviado desde colorcentro.com.mx el {{$carga['fecha']}}</p>
         </div>
     </div>
 </body>

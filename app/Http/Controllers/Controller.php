@@ -7,6 +7,7 @@ use Illuminate\Routing\Controller as BaseController;
 use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Validator;
+
 class Controller extends BaseController
 {
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
@@ -37,12 +38,12 @@ class Controller extends BaseController
      * @return Response
      */
     public function error(Array $errors, $status) {
-        return response()->json(array(
+        return array(
             "success" => false,
             'status' => $status,
             "data" => null,
             "errors" => $errors
-        ));
+        );
     }
 
     /**
