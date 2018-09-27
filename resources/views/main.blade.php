@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="{{url('/css/main/main.css')}}">
+    <link rel="stylesheet" href="css/main/main.css">
     <!-- <link rel="stylesheet" href="{{url('/css/materialize.css')}}">-->
     <title>Colorcentro</title>
 </head>
