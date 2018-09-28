@@ -307,8 +307,6 @@
                         <button class="btn-submit" id="submit myBtn">Enviar</button>
                     </div>
                 </form>
-                <!-- Trigger/Open The Modal -->
-                <button id="myBtn">Open Modal</button>
 
                 <!-- The Modal -->
                 <div id="myModal" class="modal">
