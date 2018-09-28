@@ -315,7 +315,7 @@
                     <!-- Modal content -->
                     <div class="modal-content">
                         <span class="close">&times;</span>
-                        <p>Se ha enviado el formulario</p>
+                        <p id="modal-message">Se ha enviado el formulario</p>
                     </div>
                 </div>
             </div>
