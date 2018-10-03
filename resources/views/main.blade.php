@@ -337,17 +337,72 @@
                     </div>
                     <br>
                     <div>
-                        <b><p>Blvd. Juan Alonso de Torres</p></b>
+                        <p>Blvd. Juan Alonso de Torres</p>
                     </div>
                     <div>
-                        <b><p>420 Col. San Jeronimo</p></b>
+                        <p>420 Col. San Jeronimo, León; Gto.</p>
                     </div>
-                    <br>
                     <br>
                     <div>
-                        <b><p>Nuestras direcciones</p></b>
+                        <b><p>Nuestras Sucursales</p></b>
                     </div>
                     <br>
+                    <div>
+                        <b><p>León:</p></b>
+                    </div>
+                    <div>
+                        <p>Blvd. Delta #804</p>
+                    </div>
+                    <div>
+                        <p>Col. Valle Delta, León; Gto.</p>
+                    </div>
+                    <br>
+                    <div>
+                        <b><p>San Fco. del Rincón:</p></b>
+                    </div>
+                    <div>
+                        <p>Prol. Josefa Ortíz de Domínguezz #111 L-9</p>
+                    </div>
+                    <div>
+                        <p>Zona Centro Sn. Fco. Del Rincón; Gto</p>
+                    </div>
+                    <br>
+                    <div>
+                        <b><p>Queretaro:</p></b>
+                    </div>
+                    <div>
+                        <p>Prol. Corregidora Norte #352</p>
+                    </div>
+                    <div>
+                        <p>Col. La Trinidad, Queretaro; Qro.</p>
+                    </div>
+                    <br>
+                    <div>
+                        <p>Cig. Pradera Carretera Fray Junipero</p>
+                    </div>
+                    <div>
+                        <p>Serra Km +220 Local J, Queretaro; Qro.</p>
+                    </div>
+                    <br>
+                    <div>
+                        <b><p>Salamanca:</p></b>
+                    </div>
+                    <div>
+                        <p>Hidalgo #303</p>
+                    </div>
+                    <div>
+                        <p>Zona Centro, Salamanca; Gto.</p>
+                    </div>
+                    <br>
+                    <div>
+                        <b><p>Irapuato:</p></b>
+                    </div>
+                    <div>
+                        <p>Paseo del Altiplanicie #3 Int. 3</p>
+                    </div>
+                    <div>
+                        <p>(Plaza Élite L-1) Villas de Irapuato, Irapuato; Gto.</p>
+                    </div>
                     <br>
                     <div>
                         <p>Nuevos Proyectos:</p>
