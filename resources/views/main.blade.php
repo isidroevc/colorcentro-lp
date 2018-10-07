@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/main/main.css">
+    <link rel="stylesheet" href="css/main/main-giant.css">
     <!-- <link rel="stylesheet" href="/css/materialize.css">-->
     <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
     <title>Colorcentro</title>

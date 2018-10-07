@@ -16,6 +16,8 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+
 @media screen and (max-width: 991px) and (orientation: portrait) {
   /* start of large tablet styles */
   .sec-1 {
@@ -56,7 +58,7 @@ body {
 	background: #eeeeee;;
 	width:100%;
   margin:auto;
-  max-width: 1400px;
+  max-width: 2000px;
 
 	/* Flexbox */
 	display:flex;
@@ -631,4 +633,129 @@ a.obtener-navegador {
   color: black;
   text-decoration: none;
   cursor: pointer;
+}
+
+
+@media screen and (max-width: 2000px) and (orientation: landscape) {
+  .sec-1 {
+    width: 100%;
+    height: 1200px;
+    background-image: url('../../img/imagen_fondo_sec_1.png');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sec-2 {
+    width: 100%;
+    height: 1200px;
+    background-image: url('../../img/imagen_fondo_sec_2_sc.png');
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+  }
+
+  div.nosotros {
+    background: rgba(0, 153, 159, 0.5);
+    width: 47%;
+    max-height: 100%;
+    font-size: white;
+    color: #FFF;
+    font-size: 4.5rem;
+  }
+
+  p.nosotros {
+    color: #FFF;
+    font-size: 3.5rem;
+    text-decoration: bold;
+    text-align: center;
+    width: 100%;
+    letter-spacing: 0.3rem;
+    margin-bottom: 2%;
+  }
+  p.leyenda {
+    color: #FFF;
+    font-size: 1.88rem;
+    text-align: justify;
+    margin-right: 10%;
+    margin-left: 8%;
+    margin-bottom: 5%;
+  }
+
+  p.lema {
+    text-align: right;
+    font-size: 2.11rem;
+    font-weight: 900;
+  }
+
+  .sec-4 {
+    background: url('../../img/fondo-sucursales.png') ;
+    height: 1000px;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sec-6 {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: #eee;
+  }
+
+  .row-sec-5 {
+    display: flex;
+    width: 100%;
+    background: #eee;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 43rem;
+  }
+
+  .sec-7 {
+    width: 100%;
+    display: flex;
+    flex-flow: wrap row;
+    background: #FFF;
+    font-size: 1.8rem;
+  }
+
+  .sec-7-form {
+    width: 70%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+  }
+
+  .sec-7-aside {
+    width: 30%;
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: row wrap;
+  }
+  .aside {
+    padding: 40px;
+    display: flex;
+    flex-flow: column wrap;
+    text-align: justify;
+  }
+
+  .btn-submit {
+    background: #5896e7;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.form-contacto {
+  width: 70%;
+  padding: 0.5rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
 }
