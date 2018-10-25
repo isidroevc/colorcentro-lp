@@ -11,7 +11,7 @@ body {
 .sec-1 {
   width: 100%;
   height: 768px;
-  background-image: url('../../img/imagen_fondo_sec_1_large_tablet.png');
+  background-image: url('../../img/imagen_fondo_sec_1.png');
   background-size: cover;
   display: flex;
   flex-direction: column;
